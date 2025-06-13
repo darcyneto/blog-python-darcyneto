@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <div class="row justify-content-center mt-5">
+    <div class="col-md-8 text-center">
+      <h1>Importar Posts</h1>
+      <form action="{{ url_for('importar_posts') }}" method="POST" enctype="multipart/form-data">
+        <div class="form-group">
+          <label for="file">Escolha um arquivo JSON:</label>
+          <input type="file" class="form-control" id="file" name="file" accept=".json" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Importar</button>
+      </form>
+    </div>
+  </div>
+{% endblock %}

@@ -1,0 +1,23 @@
+<!-- templates/listar_posts.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>Todos os Posts</h2>
+    <a href="{{ url_for('novo_post') }}" class="btn btn-primary">Criar Novo Post</a>
+    <!-- Botão para exportar os posts para JSON -->
+    <a href="{{ url_for('exportar_posts') }}" class="btn btn-success btn-sm float-right">Exportar Posts (JSON)</a>
+
+    <ul class="list-group mt-4">
+        {% for post in posts %}
+            <li class="list-group-item">
+                <h5>{{ post.title }}</h5>
+                <p>{{ post.content[:100] }}...</p>
+<!--                <small>Criado por: {{ post.user.username }} em {{ post.created_at }}</small>-->
+                <a href="{{ url_for('editar_post', id=post.id) }}" class="btn btn-warning btn-sm">Editar</a>
+                <form action="{{ url_for('excluir_post', id=post.id) }}" method="POST" style="display:inline;">
+                    <button type="submit" class="btn btn-danger btn-sm">Excluir</button>
+                </form>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

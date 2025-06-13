@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <!-- Fullbanner -->
+ <div class="fullbanner" style="background-image: url('/static/images/banner.jpg'); height: 400px; background-size: cover; background-position: center;">
+  <div class="d-flex justify-content-center align-items-center h-100 text-white" style="background-color: rgba(0, 0, 0, 0.5); padding: 20px;">
+    <h1 style="font-size: 3rem; font-weight: bold; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">Bem-vindo ao Meu Blog!</h1>
+  </div>
+</div>
+
+  <div class="row justify-content-center mt-5">
+    <div class="col-md-8 text-center">
+      <p>Este é o blog onde você pode compartilhar suas ideias e ler posts interessantes!</p>
+      <a href="/cadastro" class="btn btn-primary">Cadastre-se</a>
+    </div>
+  </div>
+
+  <div class="row mt-4">
+    <div class="col-md-6">
+      <h3>Últimos Posts</h3>
+      {% if user %}
+        <ul class="list-group">
+          <!-- Exibindo os últimos 5 posts do usuário logado -->
+          {% for post in posts %}
+            <li class="list-group-item">
+              <strong>{{ post.title }}</strong> <br>
+              {{ post.content|truncate(100) }}  <!-- Exibe os primeiros 100 caracteres do conteúdo -->
+              <div class="float-right">
+                <a href="{{ url_for('visualizar_post', id=post.id) }}" class="btn btn-info btn-sm"> <i class="fas fa-eye"></i> Visualizar</a>
+                <a href="{{ url_for('editar_post', id=post.id) }}" class="btn btn-warning btn-sm">Editar</a>
+                <form action="{{ url_for('excluir_post', id=post.id) }}" method="POST" style="display:inline;">
+                    <button type="submit" class="btn btn-danger btn-sm">Deletar</button>
+                </form>
+              </div>
+            </li>
+          {% else %}
+            <li class="list-group-item">Você ainda não tem posts.</li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <p>Faça login para começar a criar seus posts!</p>
+      {% endif %}
+    </div>
+
+    <div class="col-md-6">
+      <h3>Sobre</h3>
+      <p>Este blog foi desenvolvido por mim, Fernando, como parte da disciplina de Tópicos Especiais da Fatec. O objetivo do projeto é aplicar os conhecimentos que venho adquirindo no curso para criar uma plataforma simples e funcional, utilizando Python e outras tecnologias relevantes. A ideia é compartilhar conteúdos interessantes, interagir com os usuários e, ao mesmo tempo, explorar e praticar as melhores práticas de desenvolvimento.</p>
+      <p>Com esse projeto, estou buscando entender melhor a aplicação de conceitos como arquitetura de software, boas práticas de programação e integração de ferramentas, além de criar algo que possa ser útil para outros. O blog reflete minha jornada de aprendizado e minha vontade de aplicar o que aprendi de forma prática.</p>
+    </div>
+  </div>
+{% endblock %}

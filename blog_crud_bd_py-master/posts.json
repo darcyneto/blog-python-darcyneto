@@ -1,0 +1,100 @@
+[
+    {
+        "id": 1,
+        "title": "Projeto de Blog - Tópicos Especiais",
+        "content": "Este projeto foi desenvolvido como parte da disciplina de Tópicos Especiais, ministrada pelo professor Darcy Neto. O objetivo principal é aprender a criar um blog com funcionalidades como criação, edição e exclusão de posts, além de exportação e importação de dados em formato JSON. Durante o desenvolvimento, foram aplicados conceitos de Flask, manipulação de banco de dados com SQLAlchemy e boas práticas de programação. O projeto tem como foco a aprendizagem e aprimoramento das habilidades de desenvolvimento web.",
+        "created_at": "2024-11-29T04:10:03.115254",
+        "user_id": 2
+    },
+    {
+        "id": 2,
+        "title": "Necessário se cadastrar para criar posts",
+        "content": "Para criar posts neste blog, é necessário que o usuário se cadastre. O cadastro é simples e rápido, e permite que você compartilhe seus pensamentos com o mundo. Sem um cadastro, você poderá apenas visualizar os posts existentes, mas não terá a possibilidade de criar o seu próprio conteúdo. Faça seu cadastro agora e comece a compartilhar suas ideias com outros usuários!",
+        "created_at": "2024-11-29T04:10:03.115254",
+        "user_id": 2
+    },
+    {
+        "id": 3,
+        "title": "Como importar arquivos JSON para criar múltiplos posts",
+        "content": "Uma das funcionalidades do blog é a possibilidade de importar posts através de um arquivo JSON. Para isso, basta enviar um arquivo com a estrutura correta e os posts serão automaticamente criados. O arquivo JSON deve conter uma lista de objetos, onde cada objeto representa um post com título, conteúdo e ID do usuário. Se você possui vários posts e deseja importá-los de uma vez, crie o arquivo JSON e utilize a funcionalidade de importação para facilitar o processo. Certifique-se de que o arquivo tenha a extensão .json e que os dados estejam bem formatados!",
+        "created_at": "2024-11-29T04:10:03.115254",
+        "user_id": 2
+    },
+    {
+        "id": 4,
+        "title": "Compartilhe sua opinião sobre o projeto!",
+        "content": "Estamos sempre em busca de melhorias e gostaríamos muito de ouvir sua opinião sobre este projeto. O que você acha da funcionalidade de criação e importação de posts? Há algo que você mudaria ou sugeriria adicionar? Fique à vontade para deixar seu comentário e ajudar a tornar este projeto ainda melhor. Sua contribuição é muito importante para o nosso aprendizado e evolução!",
+        "created_at": "2024-11-29T04:10:03.115254",
+        "user_id": 2
+    },
+    {
+        "id": 5,
+        "title": "Uma piada para descontrair",
+        "content": "E agora, para descontrair um pouco... Aqui vai uma piada:\n\nPor que o programador sempre confunde Halloween com Natal?\nPorque OCT 31 == DEC 25!\n\nEspero que tenha dado uma boa risada! Se você tem uma piada melhor, compartilhe com a gente nos comentários!",
+        "created_at": "2024-11-29T04:10:03.115254",
+        "user_id": 2
+    },
+    {
+        "id": 6,
+        "title": "Sera que funfa teste de prima",
+        "content": "Teste lalalaalla um salve pro Zé Tabaco",
+        "created_at": "2024-11-29T04:10:21.681260",
+        "user_id": 2
+    },
+    {
+        "id": 7,
+        "title": "Meu first posts ",
+        "content": "Frist content",
+        "created_at": "2024-11-29T04:10:21.681260",
+        "user_id": 2
+    },
+    {
+        "id": 8,
+        "title": "Roteamento IP: A espinha dorsal da Internet",
+        "content": "O roteamento IP é o processo pelo qual os pacotes de dados são encaminhados de uma rede para outra na Internet. É como um sistema postal global, mas para dados digitais.\r\n\r\nComo funciona?\r\n\r\nEndereçamento IP: Cada dispositivo conectado à Internet possui um endereço IP único. Esse endereço serve como um rótulo para identificar o destino de um pacote.\r\nTabelas de roteamento: Os roteadores, dispositivos que conectam diferentes redes, possuem tabelas de roteamento que mapeiam os destinos de rede e as interfaces de saída correspondentes.\r\nProtocolos de roteamento: Protocolos como OSPF, BGP e RIP são responsáveis por atualizar as tabelas de roteamento dos roteadores, permitindo que a rede se adapte a mudanças na topologia.\r\nProtocolos de Roteamento:\r\n\r\nOSPF (Open Shortest Path First): Protocolo intra-domínio que calcula o caminho mais curto entre os roteadores em uma rede.\r\nBGP (Border Gateway Protocol): Protocolo inter-domínio que conecta diferentes redes autônomas na Internet.\r\nRIP (Routing Information Protocol): Protocolo simples que utiliza um algoritmo de vetor de distância para calcular as rotas.\r\nConceitos-chave:\r\n\r\nHop: Cada salto de um pacote de dados de um roteador para outro.\r\nMetrica: Valor utilizado para comparar diferentes rotas (e.g., distância, largura de banda).\r\nConvergência: Processo pelo qual os roteadores em uma rede concordam sobre a melhor rota para um destino.\r\nDesafios do roteamento:\r\n\r\nEscalabilidade: A Internet está em constante crescimento, exigindo protocolos de roteamento capazes de lidar com grandes redes.\r\nSegurança: Ataques a protocolos de roteamento podem comprometer a conectividade da rede.\r\nQualidade de serviço: Garantir que diferentes tipos de tráfego (e.g., voz, vídeo) recebam o tratamento adequado.\r\nConclusão:\r\n\r\nO roteamento IP é um componente fundamental da Internet. Ao entender os princípios básicos do roteamento, podemos apreciar a complexidade e a engenhosidade da infraestrutura que nos conecta globalmente.\r\n\r\nTópicos para aprofundamento:\r\n\r\nMPLS (Multiprotocol Label Switching): Tecnologia que agiliza o encaminhamento de pacotes em redes de alta performance.\r\nSDN (Software-Defined Networking): Abordagem que separa o plano de controle do plano de dados em redes.\r\nNFV (Network Functions Virtualization): Virtualização de funções de rede para maior flexibilidade e agilidade.",
+        "created_at": "2024-11-29T04:10:21.681260",
+        "user_id": 2
+    },
+    {
+        "id": 9,
+        "title": "Esse é um titulo",
+        "content": "Esse é um conteúdo.",
+        "created_at": "2024-11-29T13:24:54.587587",
+        "user_id": 3
+    },
+    {
+        "id": 10,
+        "title": "Projeto de Blog - Tópicos Especiais",
+        "content": "Este projeto foi desenvolvido como parte da disciplina de Tópicos Especiais, ministrada pelo professor Darcy Neto. O objetivo principal é aprender a criar um blog com funcionalidades como criação, edição e exclusão de posts, além de exportação e importação de dados em formato JSON. Durante o desenvolvimento, foram aplicados conceitos de Flask, manipulação de banco de dados com SQLAlchemy e boas práticas de programação. O projeto tem como foco a aprendizagem e aprimoramento das habilidades de desenvolvimento web.",
+        "created_at": "2024-11-29T13:24:54.587587",
+        "user_id": 3
+    },
+    {
+        "id": 11,
+        "title": "Necessário se cadastrar para criar posts",
+        "content": "Para criar posts neste blog, é necessário que o usuário se cadastre. O cadastro é simples e rápido, e permite que você compartilhe seus pensamentos com o mundo. Sem um cadastro, você poderá apenas visualizar os posts existentes, mas não terá a possibilidade de criar o seu próprio conteúdo. Faça seu cadastro agora e comece a compartilhar suas ideias com outros usuários!",
+        "created_at": "2024-11-29T13:24:54.587587",
+        "user_id": 3
+    },
+    {
+        "id": 12,
+        "title": "Como importar arquivos JSON para criar múltiplos posts",
+        "content": "Uma das funcionalidades do blog é a possibilidade de importar posts através de um arquivo JSON. Para isso, basta enviar um arquivo com a estrutura correta e os posts serão automaticamente criados. O arquivo JSON deve conter uma lista de objetos, onde cada objeto representa um post com título, conteúdo e ID do usuário. Se você possui vários posts e deseja importá-los de uma vez, crie o arquivo JSON e utilize a funcionalidade de importação para facilitar o processo. Certifique-se de que o arquivo tenha a extensão .json e que os dados estejam bem formatados!",
+        "created_at": "2024-11-29T13:24:54.587587",
+        "user_id": 3
+    },
+    {
+        "id": 13,
+        "title": "Compartilhe sua opinião sobre o projeto!",
+        "content": "Estamos sempre em busca de melhorias e gostaríamos muito de ouvir sua opinião sobre este projeto. O que você acha da funcionalidade de criação e importação de posts? Há algo que você mudaria ou sugeriria adicionar? Fique à vontade para deixar seu comentário e ajudar a tornar este projeto ainda melhor. Sua contribuição é muito importante para o nosso aprendizado e evolução!",
+        "created_at": "2024-11-29T13:24:54.587587",
+        "user_id": 3
+    },
+    {
+        "id": 14,
+        "title": "Uma piada para descontrair",
+        "content": "E agora, para descontrair um pouco... Aqui vai uma piada:\n\nPor que o programador sempre confunde Halloween com Natal?\nPorque OCT 31 == DEC 25!\n\nEspero que tenha dado uma boa risada! Se você tem uma piada melhor, compartilhe com a gente nos comentários!",
+        "created_at": "2024-11-29T13:24:54.587587",
+        "user_id": 3
+    }
+]

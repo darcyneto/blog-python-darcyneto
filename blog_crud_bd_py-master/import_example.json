@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Esse é um titulo",
+    "content": "Esse é um conteúdo."
+  },
+  {
+    "title": "Projeto de Blog - Tópicos Especiais",
+    "content": "Este projeto foi desenvolvido como parte da disciplina de Tópicos Especiais, ministrada pelo professor Fernando Freitas. O objetivo principal é aprender a criar um blog com funcionalidades como criação, edição e exclusão de posts, além de exportação e importação de dados em formato JSON. Durante o desenvolvimento, foram aplicados conceitos de Flask, manipulação de banco de dados com SQLAlchemy e boas práticas de programação. O projeto tem como foco a aprendizagem e aprimoramento das habilidades de desenvolvimento web."
+  },
+  {
+    "title": "Necessário se cadastrar para criar posts",
+    "content": "Para criar posts neste blog, é necessário que o usuário se cadastre. O cadastro é simples e rápido, e permite que você compartilhe seus pensamentos com o mundo. Sem um cadastro, você poderá apenas visualizar os posts existentes, mas não terá a possibilidade de criar o seu próprio conteúdo. Faça seu cadastro agora e comece a compartilhar suas ideias com outros usuários!"
+  },
+  {
+    "title": "Como importar arquivos JSON para criar múltiplos posts",
+    "content": "Uma das funcionalidades do blog é a possibilidade de importar posts através de um arquivo JSON. Para isso, basta enviar um arquivo com a estrutura correta e os posts serão automaticamente criados. O arquivo JSON deve conter uma lista de objetos, onde cada objeto representa um post com título, conteúdo e ID do usuário. Se você possui vários posts e deseja importá-los de uma vez, crie o arquivo JSON e utilize a funcionalidade de importação para facilitar o processo. Certifique-se de que o arquivo tenha a extensão .json e que os dados estejam bem formatados!"
+  },
+  {
+    "title": "Compartilhe sua opinião sobre o projeto!",
+    "content": "Estamos sempre em busca de melhorias e gostaríamos muito de ouvir sua opinião sobre este projeto. O que você acha da funcionalidade de criação e importação de posts? Há algo que você mudaria ou sugeriria adicionar? Fique à vontade para deixar seu comentário e ajudar a tornar este projeto ainda melhor. Sua contribuição é muito importante para o nosso aprendizado e evolução!"
+  },
+  {
+    "title": "Uma piada para descontrair",
+    "content": "E agora, para descontrair um pouco... Aqui vai uma piada:\n\nPor que o programador sempre confunde Halloween com Natal?\nPorque OCT 31 == DEC 25!\n\nEspero que tenha dado uma boa risada! Se você tem uma piada melhor, compartilhe com a gente nos comentários!"
+  }
+]
